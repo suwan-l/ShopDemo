@@ -1,0 +1,10 @@
+<view class="tabs">
+    <!-- 切换标题 -->
+    <view class="tabs_title">
+        <view class="title_item {{item.isActive?'active':''}}" wx:for="{{tabs}}" wx:key="id" bindtap = "handleItem" data-id="{{item.id}}">{{item.name}}</view>
+    </view>
+    <!-- 切换内容 -->
+    <view class="tabs_content">
+        <slot></slot>
+    </view>
+</view>

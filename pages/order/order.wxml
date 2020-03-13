@@ -1,0 +1,51 @@
+<view class="order_list">
+<!--切换标签组件-->
+    <Tabs tabs="{{tabs}}" bindItemChange='hanldeItemChange'>
+        <view class="order_main">
+            <view class="order_item">
+                <view class="order_no_row">
+                    <text>订单标号</text>
+                    <text>HMMMMMMMMMMMMM</text>
+                </view>
+                <view class="order_price_row">
+                    <text>订单价格</text>
+                    <text class="order_price">￥13618</text>
+                </view>
+                <view class="order_time_row">
+                    <text>订单日期</text>
+                    <text>2020-3-12</text>
+                </view>
+            </view>
+
+            <view class="order_item">
+                <view class="order_no_row">
+                    <text>订单标号</text>
+                    <text>HMMMMMMMMMMMMM</text>
+                </view>
+                <view class="order_price_row">
+                    <text>订单价格</text>
+                    <text class="order_price">￥13618</text>
+                </view>
+                <view class="order_time_row">
+                    <text>订单日期</text>
+                    <text>2020-3-12</text>
+                </view>
+            </view>
+
+            <view class="order_item">
+                <view class="order_no_row">
+                    <text>订单标号</text>
+                    <text>HMMMMMMMMMMMMM</text>
+                </view>
+                <view class="order_price_row">
+                    <text>订单价格</text>
+                    <text class="order_price">￥13618</text>
+                </view>
+                <view class="order_time_row">
+                    <text>订单日期</text>
+                    <text>2020-3-12</text>
+                </view>
+            </view>
+        </view>
+    </Tabs>
+</view>

@@ -1,0 +1,6 @@
+<view class="components">
+    <!-- 引用搜索组件 -->
+    <SearchInput></SearchInput>
+    <!-- 引用标签切换内容组件 -->
+    <Tabs tabs="{{tabs}}" binditemChange='hanldeItemChange'></Tabs>
+</view>

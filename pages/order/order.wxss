@@ -1,0 +1,11 @@
+.order_list .order_main {
+  margin-top: 30rpx;
+}
+.order_list .order_main .order_item {
+  border-bottom: 1rpx solid #ccc;
+}
+.order_list .order_main .order_item view {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 20rpx;
+}
